@@ -28,8 +28,8 @@ function App() {
           <Route path="/kids" element={<Kids />} />
           <Route path="/jewellery" element={<Jewellery />} />
           <Route path="/cart" element={<Cart/>}/> 
-           {/* <Route path="/login" element={<Login/>}/>
-          <Route path="/supplier" element={<Supplier/>}/> */}
+           <Route path="/login" element={<Login/>}/>
+          <Route path="/supplier" element={<Supplier/>}/>
         </Routes>
       </div>
     </Router>
